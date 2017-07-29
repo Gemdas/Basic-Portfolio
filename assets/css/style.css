@@ -3,4 +3,48 @@ body
 	background-image: url("../images/concrete-texture.png");
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	margin: 0;
+	padding: 0;
+}
+h1
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+	margin: 0;
+}
+.header
+{
+	background-color: white;
+	font-size: 15px;
+	text-align: right;
+	margin-bottom: 50px;
+	line-height:50px;
+    height:50px;
+}
+.connect
+{
+	background-color: white;
+	float: right;
+}
+.pageFocus
+{
+	background-color: white;
+	width: 50%;
+	float: left;
+}
+.footer
+{
+	background-color: black;
+	color: white;
+}
+.profileImage
+{
+	float: left;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
 }
