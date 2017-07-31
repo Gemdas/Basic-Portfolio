@@ -6,6 +6,7 @@ body
 	font-size: 18px;
 	margin: 0;
 	padding: 0;
+	width: 960px;
 }
 h1
 {
@@ -14,7 +15,7 @@ h1
 	color: white;
 	float: left;
 	margin: 0;
-	margin-left: 50px;
+	margin-left: 20px;
 }
 h3, h2
 {
@@ -36,12 +37,14 @@ a
 }
 .spacing
 {
-	padding-left: 460px;
+	padding-left: 490px;
 }
 .gallery
 {
 	position: relative;
 	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 h5
 {
@@ -54,20 +57,47 @@ h5
 	color: white;
 	background-color: #4aaaa5;
 }
+.bar
+{
+	border-left: 1px solid #777777;
+	border-right: 1px solid #777777;
+	padding-left: 5px;
+	padding-right: 5px; 
+}
+.form
+{
+	width: 90%;
+}
+.bigform
+{
+	height: 150px;
+}
 .connect
 {
+	padding: 5px;
 	border: 1px solid #666666;
 	background-color: white;
 	float: left;
-	width:270px;
+	width:25%;
 	margin-left: 20px;
+}
+button
+{
+	color: white;
+	background-color: #4aaaa5;
+	border-style: solid;
+	border-color: #4aaaa5;
+	width: 130px;
+	height:45px;
+	font-size: 25px;
 }
 .pageFocus
 {
+	padding: 10px;
 	border: 1px solid black;
-	margin-left: 50px;
+	margin-left: 20px;
 	background-color: white;
-	width: 650px;
+	width: 67%;
 	float: left;
 }
 .footer
