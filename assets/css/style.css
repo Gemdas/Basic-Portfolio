@@ -16,10 +16,16 @@ h1
 	float: left;
 	margin: 0;
 	margin-left: 20px;
+	font-size: 2em;
 }
 h3, h2
 {
 	color: #4aaaa5;
+	font-size: 1.17em;
+}
+h2
+{
+	font-size: 1.5em;
 }
 a
 {
@@ -37,7 +43,7 @@ a
 }
 .spacing
 {
-	padding-left: 490px;
+	padding-left: 500px;
 }
 .gallery
 {
@@ -45,6 +51,11 @@ a
 	float: left;
 	margin-left: 20px;
 	margin-bottom: 20px;
+}
+h4
+{
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 h5
 {
@@ -90,6 +101,7 @@ button
 	width: 130px;
 	height:45px;
 	font-size: 25px;
+	cursor:not-allowed;
 }
 .pageFocus
 {
