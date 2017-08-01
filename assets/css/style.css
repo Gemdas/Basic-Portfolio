@@ -7,6 +7,7 @@ body
 	margin: 0;
 	padding: 0;
 	width: 960px;
+	/*height: 1225px;*/
 }
 h1
 {
@@ -15,6 +16,7 @@ h1
 	color: white;
 	float: left;
 	margin: 0;
+	border: .25px solid #4aaaa5;
 	margin-left: 20px;
 	font-size: 2em;
 }
@@ -78,10 +80,7 @@ h5
 .form
 {
 	width: 90%;
-}
-.bigform
-{
-	height: 150px;
+	height: 20px;
 }
 .connect
 {
@@ -111,10 +110,15 @@ button
 	background-color: white;
 	width: 67%;
 	float: left;
+	margin-bottom: 20px;
+	overflow: auto;
 }
 .footer
 {
-
+	/*position: fixed;
+	bottom: 0px;
+	width: 960px;*/
+	margin-top: 50px;
     border-top-style: solid;
     border-top-width: 10px;
     border-top:thick single;
